@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Application Form</title>
+<style>
+.form {
+  display: grid;
+  grid-template-columns: 120px 200px;
+  gap: 10px;
+  width: 350px;
+}
+</style>
+</head>
+<body>
+<h2>Application Form</h2>
+<form class="form">
+  <label>Name:</label>
+  <input type="text" required>
+
+  <label>Email:</label>
+  <input type="email" required>
+
+  <label>Phone:</label>
+  <input type="tel" required>
+
+  <label>Course:</label>
+  <input type="text" required>
+
+  <span></span>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
